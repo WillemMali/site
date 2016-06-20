@@ -1,0 +1,85 @@
+*, *:before, *:after {
+        box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        -webkit-box-sizing: inherit;
+}
+
+html {
+        font-family: monospace;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        font-size: 100%;
+}
+
+body {
+        max-width: 800px;
+        margin: auto;
+        padding: 1em 1ch 1em 1ch;
+        font-size: 1.15em;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, ul, ol {
+        font-size: inherit;
+        margin: 0;
+        padding: 0 0 0 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+        padding-bottom: 1em;
+        padding-top: 1em;
+}
+
+a {
+        text-decoration: none;
+}
+
+a:before {
+        content: "[";
+}
+
+a:after {
+        content: "]";
+}
+
+a:link {
+        color: black;
+
+}
+
+a:hover {
+        color: red;
+}
+
+a:visited:hover {
+        color: red;
+}
+
+a:visited {
+        color: #888;
+}
+
+a:active {
+        color: #F00;
+}
+
+
+p {
+        padding-bottom: 1em;
+        padding-left: 4ch;
+}
+
+ul {
+        padding-bottom: 1em;
+}
+
+li {
+        list-style: none;
+        padding-left: 4ch;
+}
+
+li:before {
+        content: "*"
+}
+        adding: 1em 1ch 1em 1ch;
