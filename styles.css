@@ -80,6 +80,5 @@ li {
 }
 
 li:before {
-        content: "*"
+        content: "*";
 }
-        adding: 1em 1ch 1em 1ch;
